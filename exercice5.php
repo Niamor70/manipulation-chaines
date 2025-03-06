@@ -18,7 +18,9 @@ $a = "Ce texte est écrit en vert!";
 // https://www.php.net/manual/en/function.substr-replace.php
 ?>
 <!-- écrire le code après ce commentaire -->
-
+<?php
+$a = str_replace("vert", "rouge", $a);
+?>
 
 <!-- écrire le code avant ce commentaire -->
 

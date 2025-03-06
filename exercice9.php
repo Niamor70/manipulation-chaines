@@ -8,7 +8,6 @@
     <title>Exercice PHP</title>
 </head>
 <body>
-
 <?php
 
 $a = ' \'Vive\' les <strong>dromadaires</strong> !';
@@ -18,7 +17,9 @@ $a = ' \'Vive\' les <strong>dromadaires</strong> !';
 // https://www.php.net/manual/fr/function.htmlentities.php
 ?>
 <!-- écrire le code après ce commentaire -->
-
+<?php
+$a = htmlentities($a);
+?>
 
 <!-- écrire le code avant ce commentaire -->
 <style>

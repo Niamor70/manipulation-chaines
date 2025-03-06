@@ -19,6 +19,9 @@
     ?>
     <!-- écrire le code après ce commentaire -->
 
+    <?php
+    $a = trim($a);
+    ?>
 
     <!-- écrire le code avant ce commentaire -->
     <style>

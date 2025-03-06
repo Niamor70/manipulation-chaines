@@ -18,7 +18,11 @@ $a = "Autruche Lion Girafe Ours Rhinocéros";
 // https://www.php.net/manual/fr/function.wordwrap
 ?>
 <!-- écrire le code après ce commentaire -->
-
+<?php
+$a = explode(" ", $a);
+$a = $a[3];
+//var_dump($a);
+?>
 
 <!-- écrire le code avant ce commentaire -->
 <style>

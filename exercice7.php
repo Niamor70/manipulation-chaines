@@ -6,6 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Exercice PHP</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <style>
+        p {
+            font-family: "Open Sans", sans-serif;
+        }
+    </style>
 </head>
 <body>
 
@@ -24,8 +32,11 @@
 
 ?>
 <!-- écrire le code après ce commentaire -->
-
-
+<p>
+<?php
+echo $_GET['mot'];
+?>
+</p>
 <!-- écrire le code avant ce commentaire -->
 
 </body>

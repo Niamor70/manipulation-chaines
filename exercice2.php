@@ -19,6 +19,9 @@ $a = "Du TexTe aVEc des Majuscules ET des MINUsculES Un peu N'IMPORTE Où !";
 ?>
 <!-- écrire le code après ce commentaire -->
 
+<?php
+$a = strtolower($a);
+?>
 
 <!-- écrire le code avant ce commentaire -->
 

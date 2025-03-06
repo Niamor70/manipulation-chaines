@@ -20,6 +20,7 @@ $a = "Je+suis+une+cha%C3%AEne+de+caract%C3%A8res+%21";
 
 <!-- écrire le code après ce commentaire -->
 
+<p><?php echo urldecode($a); ?></p>
 
 <!-- écrire le code avant ce commentaire -->
 <style>
@@ -28,6 +29,6 @@ $a = "Je+suis+une+cha%C3%AEne+de+caract%C3%A8res+%21";
         display: inline;
     }
 </style>
-<p><?php echo urldecode($a); ?></p>
+
 </body>
 </html>

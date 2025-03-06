@@ -18,7 +18,9 @@ $a = "12345 ";
 // https://www.php.net/manual/fr/function.str-repeat.php
 ?>
 <!-- écrire le code après ce commentaire -->
-
+<?php
+$a = str_repeat($a, 3);
+?>
 
 <!-- écrire le code avant ce commentaire -->
 <style>
